@@ -1,0 +1,34 @@
+body {height: 10000px;}
+.wrapper {max-width: 1500px; margin: 0 auto;}
+
+
+.header {border-bottom: 1px solid #fff; padding: 16px; max-width: 1500px; margin: 0 auto;
+color: white;}
+.navi-wrap > .login {float: right;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+font-family: 'Finger Paint', cursive;
+
+.title-wrap {width: 100%; color: white;}
+.title-wrap .titles {float: right; font-size: 18px;}
+.title-wrap .titles > div {float: left;  padding: 24px 16px;}
+.title-wrap  .title {font-size: 30px; letter-spacing: 3px;}
+
+.picture {
+	height:100vh;  position: relative;
+	background: url('../img/travel-banner-cyan2.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+.main-logo { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; 
+	top: 50%; transform: translateY(-50%); font-size: 70px; border: 1px solid red;
+font-family: 'Finger Paint', cursive; background-color: #109bc5;}	
+.main-cont { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; 
+	top: 50%; transform: translateY(-50%); font-size: 20px; border: 1px solid red;}	
+
+
+.box {border: 1px solid red; background-color: #109bc5; color: white; width:33.24% ;text-align: justify; font-size: 100%; float: left;}
+.box > .box-cont {border: 1px solid red; padding: 100px 50px;}
