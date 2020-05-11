@@ -9,11 +9,15 @@ hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
 
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 font-family: 'Finger Paint', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
 
 .title-wrap {width: 100%; color: white;}
 .title-wrap .titles {float: right; font-size: 18px; color: #fff;}
 .title-wrap .titles > div {float: left;  padding: 24px 16px;}
 .title-wrap  .title {font-size: 30px; letter-spacing: 3px; color: #fff;}
+
 
 .picture {
 	height:100vh;  position: relative;
@@ -34,18 +38,26 @@ font-family: 'Finger Paint', cursive;}
 .box1 {background-color: #0093c0;}
 .box2 {background-color: #109bc5;}
 .box3 {background-color: #009fd0;}
-.box > .box-cont {border: 1px solid red; padding: 90px 50px 90px 50px;}
+.box > .box-cont {padding: 90px 50px 90px 50px;}
 .box .cont-1 {padding: 8px; font-size: 24px;}
 
-.mid-wrap {text-align: center; border: 1px solid red; padding: 100px;}
+.mid-wrap {text-align: center; font-family: 'Open Sans', sans-serif;
+border: 1px solid red;}
 .mid-1 {}
 .mid-2 {letter-spacing: 1px; color: #222; font-size: 34px; margin-bottom: 24px;}
 .mid-3 {font-size: 100%; margin: 8px;}
 
-.btm-wrap {text-align: center; border: 1px solid red; padding: 100px;}
-.btm-1 {padding: 16px;}
-.btm-2 {font-size: 34px;}
-.btm-photo {max-width: 33.3%; float: left; padding: 16px; text-align: center;}
+.btm-wrap {text-align: center; padding: 100px; border: 1px solid red;}
+.btm-1 {padding: 4px;}
+.btm-2 {font-size: 34px; padding-bottom: 24px;}
+.btm-photo {max-width: 33.3%; float: left; padding: 16px; text-align: center; 
+	position: relative;}
+.btm-text {z-index: 99; position:absolute; top: 50%; left: 50%; transform: 
+	translate(-50%,-50%); color: white; font-size: 16px; font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;}
+
+
+
 
 .last-wrap {text-align: center; border: 1px solid red; padding: 16px;}
 .last-title {padding: 8px;}
