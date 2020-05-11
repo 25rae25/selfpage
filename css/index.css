@@ -46,3 +46,7 @@ font-family: 'Finger Paint', cursive;}
 .btm-1 {padding: 16px;}
 .btm-2 {font-size: 34px;}
 .btm-photo {max-width: 33.3%; float: left; padding: 16px; text-align: center;}
+
+.last-wrap {text-align: center; border: 1px solid red; padding: 16px;}
+.last-title {padding: 8px;}
+.last-cont {letter-spacing: 1px; font-size: 34px;}
