@@ -32,17 +32,21 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Finger Paint', cursive;}	
 .main-cont { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; 
 	top: 50%; transform: translateY(-50%); font-size: 20px; padding-bottom: 50px;}	
+	
 
-
-.box {border: 1px solid red; color: white; width:33.24% ;text-align: justify; font-size: 100%; float: left;}
+.box {border: 1px solid red; color: white; width:33.24% ;text-align: justify; 
+		font-size: 100%; float: left;}
 .box1 {background-color: #0093c0;}
 .box2 {background-color: #109bc5;}
 .box3 {background-color: #009fd0;}
-.box > .box-cont {padding: 90px 50px 90px 50px;}
-.box .cont-1 {padding: 8px; font-size: 24px;}
+.box > .box-cont {padding: 90px 50px 90px 50px; border: 1px solid yellow;
+margin: 0 20px;}
+.box .cont-1 {margin: 8px; font-size: 24px; border: 1px solid red;}
+.box .cont-2 {text-align: justify;}
+.icon {float: left; margin: 24px; font-size: 50px;}
 
 .mid-wrap {text-align: center; font-family: 'Open Sans', sans-serif;
-border: 1px solid red;}
+border: 1px solid red; margin-top: 50px;}
 .mid-1 {}
 .mid-2 {letter-spacing: 1px; color: #222; font-size: 34px; margin-bottom: 24px;}
 .mid-3 {font-size: 100%; margin: 8px;}
@@ -56,9 +60,45 @@ border: 1px solid red;}
 	translate(-50%,-50%); color: white; font-size: 16px; font-family: 'Open Sans', sans-serif;
 letter-spacing: 1px;}
 
-
-
-
 .last-wrap {text-align: center; border: 1px solid red; padding: 16px;}
 .last-title {padding: 8px;}
 .last-cont {letter-spacing: 1px; font-size: 34px;}
+
+.end-wrap {margin: 40px 0; width: 100%; border: 1px solid red;}
+.end-wrap > .end-pic {width: 16.666%; float:left ; position: relative;}
+.end-cont {z-index: 3; top: 50%; left:33%; position:absolute; color: white;
+font-size: 34px; font-family: 'Quicksand', sans-serif;}
+
+.final-wrap {border: 1px solid yellow; background-color: #109bc5; text-align: center;
+max-width: 1200%; padding: 200px;}
+.final-wrap  .fin-tit {border: 1px solid red; padding: 30px 0; color: white;}
+.final-wrap  .fin-cont {border: 1px solid red; padding-bottom: 20px; font-size: 32px;
+color: white; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;}
+.final-form {float: left;}
+
+.fin {width: 100%;}
+.fin-name{background-color: #0f81a1; border-color: #83c7dc; color: #bde5f0; 
+padding: 16px 24px; width: 18%; float: left; border:1px solid red;
+margin: 0 12px;}
+
+.footer {border: 1px solid red; width: 100%; background-color: #11abd6;}
+.fo-tit {float: left; padding: 4px 8px; margin-left: 20%;}
+.footer .fo-cont {float: right; margin-right: 20%;}
+.fo-cont > a  {float: left; padding: 16px 24px;}
+
+
+
+@media screen and (max-width: 1199px) {
+	
+}
+
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+	
+}
+
+@media screen and (max-width: 575px) {
+
+}
