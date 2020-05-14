@@ -34,7 +34,7 @@ font-family: 'Finger Paint', cursive;}
 	top: 50%; transform: translateY(-50%); font-size: 20px; padding-bottom: 50px;}	
 	
 
-.box {border: 1px solid red; color: white; width:33.24% ;text-align: justify; 
+.box {border: 1px solid red; color: white; width:33.33% ;text-align: justify; 
 		font-size: 100%; float: left;}
 .box1 {background-color: #0093c0;}
 .box2 {background-color: #109bc5;}
@@ -42,18 +42,19 @@ font-family: 'Finger Paint', cursive;}
 .box > .box-cont {padding: 90px 50px 90px 50px; border: 1px solid yellow;
 margin: 0 20px;}
 .box .cont-1 {margin: 8px; font-size: 24px; border: 1px solid red;}
-.box .cont-2 {text-align: justify;}
-.icon {float: left; margin: 24px; font-size: 50px;}
+.box .cont-2 {text-align: justify; border: 1px solid red;}
+.icon {float: left; margin: 24px; font-size: 50px; border: 1px solid red;}
+.iconbox {border:50px  solid red; line-height: 50px; border-radius: 100px;}
+
 
 .mid-wrap {text-align: center; font-family: 'Open Sans', sans-serif;
 border: 1px solid red; margin-top: 50px;}
-.mid-1 {}
 .mid-2 {letter-spacing: 1px; color: #222; font-size: 34px; margin-bottom: 24px;}
 .mid-3 {font-size: 100%; margin: 8px;}
 
 .btm-wrap {text-align: center; padding: 100px; border: 1px solid red;}
 .btm-1 {padding: 4px;}
-.btm-2 {font-size: 34px; padding-bottom: 24px;}
+.btm-2 {font-size: 34px; padding-bottom: 24px; border: 1px solid red;}
 .btm-photo {max-width: 33.3%; float: left; padding: 16px; text-align: center; 
 	position: relative;}
 .btm-text {z-index: 99; position:absolute; top: 50%; left: 50%; transform: 
@@ -70,7 +71,8 @@ letter-spacing: 1px;}
 font-size: 34px; font-family: 'Quicksand', sans-serif;}
 
 .final-wrap {border: 1px solid yellow; background-color: #109bc5; text-align: center;
-max-width: 1200%; padding: 200px;}
+max-width: 1200%; padding:200px;}
+.final {border: 1px solid;}
 .final-wrap  .fin-tit {border: 1px solid red; padding: 30px 0; color: white;}
 .final-wrap  .fin-cont {border: 1px solid red; padding-bottom: 20px; font-size: 32px;
 color: white; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;}
@@ -78,10 +80,11 @@ color: white; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;}
 
 .fin {width: 100%;}
 .fin-name{background-color: #0f81a1; border-color: #83c7dc; color: #bde5f0; 
-padding: 16px 24px; width: 18%; float: left; border:1px solid red;
+padding: 16px 24px; width: 33.3%; float: left; border:1px solid #83c7dc;
 margin: 0 12px;}
 
-.footer {border: 1px solid red; width: 100%; background-color: #11abd6;}
+.footer {border: 1px solid red; width: 100%; background-color: deepskyblue;
+	padding: 8px 16px; box-shadow: 2px 0 0 2px  rgba(0, 0, 0, 0.7);}
 .fo-tit {float: left; padding: 4px 8px; margin-left: 20%;}
 .footer .fo-cont {float: right; margin-right: 20%;}
 .fo-cont > a  {float: left; padding: 16px 24px;}
