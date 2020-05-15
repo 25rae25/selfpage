@@ -6,13 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Enfold TRAVEL</title>
 
+	<link rel="stylesheet" href="">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Quicksand&display=swap"
 	      rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/animate.css">
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/index.css">
+	<script src="../js/wow.min.js"></script>
 </head>
 
 <body>
@@ -42,12 +45,12 @@
 			<br></br>
 		</div>
 		<div class="main-cont">Want to make a journey? We got the destinations!</div>
+		<span class="main-icon">ALL DESTINATIONS</span>
 	</div>
-	<form action=""></form>
 </section>
 
 <div class="boxs clear">
-	<div class="box box1">
+	<div class="box box1 wow bounce" data-wow-delay="0.1s">
 		<div class="box-icon">
 			<span class="fas fa-thumbs-up"></span>
 		</div>
@@ -156,8 +159,11 @@
 
 
 <footer class="footer clear">
-	<div class="fo-tit">Copyright- <a href="https://kriesi.at/themes/enfold-travel/">Enfold Travel Demo</a>-<a
-		href="https://kriesi.at">powered by Enfold WordPress Theme</a></div>
+	<div class="fo-tit">
+		<span> Copyright-</span>
+		<a href="https://kriesi.at/themes/enfold-travel/">Enfold Travel Demo -</a>
+		<a href="https://kriesi.at">powered by Enfold WordPress Theme</a>
+	</div>
 	<div class="fo-cont">
 		<a href="https://kriesi.at">
 			<div>Welcome</div>
@@ -170,5 +176,9 @@
 		</a>
 	</div>
 </footer>
+
+<script>
+	new WOW().init();
+</script>
 </body>
 </html>
