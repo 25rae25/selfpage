@@ -19,7 +19,6 @@ hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
 .title-wrap {width: 100%; color: white;}
 .title-wrap .titles {float: right; font-size: 18px; color: #fff;}
 .title-wrap .titles > div {float: left;  padding: 24px 16px;}
-.title-wrap  .title {font-size: 30px; letter-spacing: 3px; color: #fff;}
 
 
 .picture {
@@ -33,11 +32,12 @@ hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
 .main-logo { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; 
 	top: 50%; transform: translateY(-50%); font-size: 70px; 
 font-family: 'Finger Paint', cursive;}	
-.main-cont { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; top: 50%; transform: translateY(-50%); font-size: 20px; padding-bottom: 50px;}	
+.main-cont { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; top: 50%; transform: translateY(-50%); font-size: 20px; margin-top: 4rem;}	
 .main-icon { width: 10%; position: absolute; text-align: center; color: #fff; font-weight: normal; top: 50%; transform: translateY(50%); font-size: 20px; padding-bottom: 50px;
 background-color: #009fd0;}	
+.main-lf {width: 50%; position: absolute; text-align: center;}
 
-	
+
 
 .box {width: 33.3333%; float: left; color: #fff;padding: 80px 35px;}
 .box1 {background-color: #0093c0;}
@@ -45,32 +45,32 @@ background-color: #009fd0;}
 .box3 {background-color: #009fd0;}
 .box-icon {float: left; width: 80px; height: 80px; border: 1px solid white; border-radius: 50%; text-align:center; line-height: 80px;}
 .box-cont {float: right; width: calc(100% - 100px);height: 80px;}
-/*
-.box {border: 1px solid red; color: white; width:33.33% ;text-align: justify; 
-		font-size: 100%; float: left;}
-.box1 {background-color: #0093c0;}
-.box2 {background-color: #109bc5;}
-.box3 {background-color: #009fd0;}
-.box > .box-cont {padding: 90px 50px 90px 50px; border: 1px solid yellow;
-margin: 0 20px;}
-.box .cont-1 {margin: 8px; font-size: 24px; border: 1px solid red;}
-.box .cont-2 {text-align: justify; border: 1px solid red;}
-.icon {float: left; margin: 24px; font-size: 50px; border: 1px solid red;}
-.iconbox {border:50px  solid red; line-height: 50px; border-radius: 100px;}
-*/
+
 
 .mid-wrap {text-align: center; font-family: 'Open Sans', sans-serif; margin-top: 50px;}
 .mid-2 {letter-spacing: 1px; color: #222; font-size: 34px; margin-bottom: 24px;}
 .mid-3 {font-size: 100%; margin: 8px;}
+.mid-wrap .bt-dest {background-color: #0093c0; color: #fff; padding: 1rem; margin-top: 1rem;
+border-radius: 100px; border: none; outline:none; cursor: pointer; position: relative; transition: all 0.5s;}
+.mid-wrap .bt-dest .fa {display: none; right:1rem; top:1.25rem; position: absolute;}
+.mid-wrap .bt-dest:hover {background-color: #0093c0; padding-right: 3rem;}
+.mid-wrap .bt-dest:hover > .fa {display: inline-block;}
 
-.btm-wrap {text-align: center; padding: 100px;}
+
+.btm-wrap {text-align: center; padding: 100px; cursor: pointer; transition: all 0.5s;
+opacity: ; }
+.btm-wrap .btm-text:hover {opacity: 0; transform: scale(50px);}
+.btm-wrap .btm-photo img:hover {opacity: 1;}
 .btm-1 {padding: 4px;}
 .btm-2 {font-size: 34px; padding-bottom: 24px;}
 .btm-photo {max-width: 33.3%; float: left; padding: 16px; text-align: center; 
 	position: relative;}
+
 .btm-text {z-index: 99; position:absolute; top: 50%; left: 50%; transform: 
 	translate(-50%,-50%); color: white; font-size: 16px; font-family: 'Open Sans', sans-serif;
 letter-spacing: 1px;}
+
+
 
 .last-wrap {text-align: center;padding: 16px;}
 .last-title {padding: 8px;}
@@ -83,7 +83,7 @@ font-size: 34px; font-family: 'Quicksand', sans-serif;}
 
 .final-wrap {background-color: #109bc5; text-align: center;
 max-width: 1200%; padding:200px;}
-.final {}
+
 .final-wrap  .fin-tit {padding-top: 20px 0; color: white;}
 .final-wrap  .fin-cont {padding: 20px; font-size: 32px;
 color: white; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;}
@@ -96,18 +96,16 @@ margin: 0 12px; }
 
 
 .footer {width: 100%; background-color: deepskyblue; color: white;
-	padding: 8px 16px;}
-.fo-tit {float: left; padding: 16px 8px; margin-left: 20%; color: white; text-decoration: none;}
+	padding: 8px 16px; }
+.footer > .fo-tit {float: left; padding: 16px 8px; margin-left: 20%; color: white; text-decoration: none;}
 .footer .fo-cont {float: right; margin-right: 20%;}
 .fo-cont > a  {float: left; padding: 16px 24px; color: white; text-decoration: none;}
 .footer:hover {color: white;}
+.footer .fofo {text-decoration: none;}
 
 
 
 
-@media screen and (max-width: 1199px) {
-	
-}
 
 @media screen and (max-width: 991px) {
 	.header {color: white; font-size: 13px; line-height: 13px; padding: 6px 0;
@@ -123,8 +121,4 @@ margin: 0 12px; }
 }
 @media screen and (max-width: 767px) {
 	
-}
-
-@media screen and (max-width: 575px) {
-
 }
