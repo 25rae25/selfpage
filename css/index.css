@@ -50,25 +50,24 @@ background-color: #009fd0;}
 .mid-wrap {text-align: center; font-family: 'Open Sans', sans-serif; margin-top: 50px;}
 .mid-2 {letter-spacing: 1px; color: #222; font-size: 34px; margin-bottom: 24px;}
 .mid-3 {font-size: 100%; margin: 8px;}
-.mid-wrap .bt-dest {background-color: #0093c0; color: #fff; padding: 1rem; margin-top: 1rem;
+.mid-wrap .bt-dest {background-color: #0093c0; color: #fff; padding: 1rem 1.5rem; margin-top: 1rem; width: 186px; text-align: left;
 border-radius: 100px; border: none; outline:none; cursor: pointer; position: relative; transition: all 0.5s;}
 .mid-wrap .bt-dest .fa {display: none; right:1rem; top:1.25rem; position: absolute;}
-.mid-wrap .bt-dest:hover {background-color: #0093c0; padding-right: 3rem;}
+.mid-wrap .bt-dest:hover {background-color: #0093c0; width: 200px;}
 .mid-wrap .bt-dest:hover > .fa {display: inline-block;}
 
 
-.btm-wrap {text-align: center; padding: 100px; cursor: pointer; transition: all 0.5s;
-opacity: ; }
-.btm-wrap .btm-text:hover {opacity: 0; transform: scale(50px);}
+.btm-wrap {text-align: center; padding: 100px; cursor: pointer; transition: all 0.5s; }
 .btm-wrap .btm-photo img:hover {opacity: 1;}
 .btm-1 {padding: 4px;}
 .btm-2 {font-size: 34px; padding-bottom: 24px;}
-.btm-photo {max-width: 33.3%; float: left; padding: 16px; text-align: center; 
+.btm-photo {max-width: 32.3%; float: left; text-align: center; margin: 0.5%;
 	position: relative;}
+.photo-bg {position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); top: 0; left: 0; display: table; transition: all 0.5s;}
+.btm-wrap .btm-photo:hover > .photo-bg { background-color: rgba(0,0,0,0);}
 
-.btm-text {z-index: 99; position:absolute; top: 50%; left: 50%; transform: 
-	translate(-50%,-50%); color: white; font-size: 16px; font-family: 'Open Sans', sans-serif;
-letter-spacing: 1px;}
+.btm-text {color: white; font-size: 16px; font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px; display: table-cell; text-align: center; vertical-align: middle;}
 
 
 
@@ -84,7 +83,7 @@ font-size: 34px; font-family: 'Quicksand', sans-serif;}
 .final-wrap {background-color: #109bc5; text-align: center;
 max-width: 1200%; padding:200px;}
 
-.final-wrap  .fin-tit {padding-top: 20px 0; color: white;}
+.final-wrap  .fin-tit {padding-top: 20px; color: white;}
 .final-wrap  .fin-cont {padding: 20px; font-size: 32px;
 color: white; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;}
 .final-form {float: left;}
