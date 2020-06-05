@@ -17,8 +17,14 @@ hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
 
 
 .title-wrap {width: 100%; color: white;}
-.title-wrap .titles {float: right; font-size: 18px; color: #fff;}
-.title-wrap .titles > div {float: left;  padding: 24px 16px;}
+.title-wrap .titles {float: right; font-size: 18px; color: #fff; position: relative;}
+.title-wrap .titles > div {float: left;  padding: 24px 16px; cursor: pointer;}
+.titles .ti-mo {background-color: #fff; position: absolute; color: #777474; width: 250px;
+top: 4rem; left: 7.5rem; display: none; cursor: pointer;}
+.titles .ti-mo > li {padding: 0.8rem; text-align: left; cursor: pointer;}
+.titles .ti-mo  > li:hover {background-color: #eee; color: #000;}
+
+
 
 
 .picture {

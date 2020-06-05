@@ -1,22 +1,12 @@
-/*
-var onEndHover = $(".end-wrap .end-pic").width();
+function onNaviHover() {
+	$(this).find(".ti-mo").stop().fadeIn(500);
+}
 
+function onNaviLeave() {
+	$(this).find(".ti-mo").stop().fadeOut(500);
+}
 
-$(".end-wrap .end-pic").hover(function(){
-	$(this).innerWidth('50%')
-});
-
-$(".end-wrap .end-pic").
-
-
-
-$(".end-wrap .end-pic").
-
-
-
-$(".end-wrap .end-pic").stop().show();
-$(".end-wrap .end-pic").hover(onEndHover, onEndLeave);
-*/
+$(".titles").hover(onNaviHover, onNaviLeave);
 
 
 $(".end-pic").each(function(i){
@@ -24,3 +14,13 @@ $(".end-pic").each(function(i){
 	var wid = $(".end-wrap").innerWidth()/6;
 	$(this).find(".end-cont").innerWidth(wid);
 });
+
+$(".end-pic").hover(onEndHover, onEndLeave);
+
+function onEndHover() {
+	$(this).css("left", (i* 100)+"%");
+	$(this).find("")	
+}
+
+
+
