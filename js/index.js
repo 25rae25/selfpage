@@ -46,24 +46,5 @@ function onBarClick() {
 }
 
 
-/******************* main사진 ************************/  
-slide.scale(".picture")
-
-var Slide = {
-scale: function(container, slide, cb) {
-	var now = 0;
-	var $container = $(container).addClass("picture");
-
-	)};
-
-
-function onPrev() {
-	$(this).hide();
-	now = (now == 0) ? last : now - 1;
-	ani();
-};
-function onNext() {
-	$(this).hide();
-	now = (now == 2) ? 0 : now + 1;
-	ani();
-};
+/******************* pic ************************/  
+var slide = new Slide(".picture", ".pic", "scale", onComplete);

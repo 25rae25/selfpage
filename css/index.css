@@ -75,6 +75,12 @@ top: 4rem; left: 7.5rem; display: none; cursor: pointer;}
 	background-size: cover;
 	background-attachment: fixed;	
 }
+.picture .pic1 {background-image: url(../img/travel-banner-cyan.jpg);} 
+.picture .pic2 {background-image: url(../img//travel-banner-3.jpg);} 
+.picture .pic3 {background-image: url(../img/travel-banner-6.jpg);} 
+
+
+
 .main-logo { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; 
 	top: 50%; transform: translateY(-50%); font-size: 70px; 
 font-family: 'Finger Paint', cursive;}	
