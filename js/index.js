@@ -47,15 +47,15 @@ function onBarClick() {
 
 
 /******************* main사진 ************************/  
-var mainSlide = new Slide({
-	type: 'scale', 
-	container: '.picture', 
-	slide: '.slide',
-	before: function(prev, next, container){
+slide.scale(".picture")
 
-	},
-	complete: function(prev, next, container){
+var Slide = (function(){
+	function Slide(container, slide, type) {
+		this.container = $(container);
+		this.slide = $(container).find(slide);
 
+		this.type = obj.type;
 	}
-
+	return Slide;
+})();
 
