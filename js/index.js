@@ -49,13 +49,21 @@ function onBarClick() {
 /******************* main사진 ************************/  
 slide.scale(".picture")
 
-var Slide = (function(){
-	function Slide(container, slide, type) {
-		this.container = $(container);
-		this.slide = $(container).find(slide);
+var Slide = {
+scale: function(container, slide, cb) {
+	var now = 0;
+	var $container = $(container).addClass("picture");
 
-		this.type = obj.type;
-	}
-	return Slide;
-})();
+	)};
 
+
+function onPrev() {
+	$(this).hide();
+	now = (now == 0) ? last : now - 1;
+	ani();
+};
+function onNext() {
+	$(this).hide();
+	now = (now == 2) ? 0 : now + 1;
+	ani();
+};
