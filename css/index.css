@@ -5,11 +5,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Quicksand', sans-serif;*/
 
 
-body {height: 10000px;}
+body {height: 5000px;}
 .wrapper {max-width: 1210px; margin: 0 auto;}
 .wrapper-small {max-width: 800px; margin: auto;}
 
-
+.imgh {width: 30%;}
 .header {color: white; font-size: 13px; line-height: 13px; padding: 6px 0;}
 .navi-wrap > .login {float: right;}
 hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
@@ -23,6 +23,46 @@ hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
 top: 4rem; left: 7.5rem; display: none; cursor: pointer;}
 .titles .ti-mo > li {padding: 0.8rem; text-align: left; cursor: pointer;}
 .titles .ti-mo  > li:hover {background-color: #eee; color: #000;}
+
+.bar-wrap {}
+.bars {width: 84px; height: 84px; position: relative; cursor: pointer; margin: auto; 
+	display: none;}
+.bar {width: 36px; height: 3px; background-color: #fff; position: absolute; transform-origin: center; animation-duration: 1s; animation-fill-mode: forwards;}
+.bar1 {top: 33px; left: 24px;}
+.bar2 {top: 43px; left: 24px;}
+.bar3 {top: 53px; left: 24px;}
+
+@keyframes bar1 {
+	0% {}
+	40% {top: 43px; transform: rotate(0deg)}
+	100% {top: 43px; transform: rotate(-225deg);}
+}
+@keyframes bar2 {
+	0% {opacity: 1;}
+	40% {opacity: 0;}
+	100% {opacity: 0;}
+}
+@keyframes bar3 {
+	0% {}
+	40% {top: 43px; transform: rotate(0deg);}
+	100% {top: 43px; transform: rotate(-135deg);}
+}
+
+@keyframes bar1-rev {
+	0% {top: 43px; transform: rotate(-225deg);}
+	60% {top: 43px; transform: rotate(0deg);}
+	100% {top: 33px; transform: rotate(0deg);}
+}
+@keyframes bar2-rev {
+	0% {opacity: 0;}
+	60% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes bar3-rev {
+	0% {top: 43px; transform: rotate(-135deg);}
+	60% {top: 43px; transform: rotate(0deg);}
+	100% {top: 53px; transform: rotate(0deg);}
+}
 
 
 
@@ -51,6 +91,7 @@ background-color: #009fd0;}
 .box3 {background-color: #009fd0;}
 .box-icon {float: left; width: 80px; height: 80px; border: 1px solid white; border-radius: 50%; text-align:center; line-height: 80px;}
 .box-cont {float: right; width: calc(100% - 100px);height: 80px;}
+.box-cont .cont-1 {font-size: 1.5rem;}
 
 
 .mid-wrap {text-align: center; font-family: 'Open Sans', sans-serif; margin-top: 50px;}
@@ -108,12 +149,15 @@ margin: 0 12px; }
 .footer {width: 100%; background-color: deepskyblue; color: white;
 	padding: 8px 16px; }
 .footer > .fo-tit {float: left; padding: 16px 8px; margin-left: 20%; color: white; text-decoration: none;}
+.dodo {text-decoration: none; float: left; color: #fff; padding: 0 2px;}
+.fo-tit > span {text-decoration: none; float: left; padding: 0 2px;}
 .footer .fo-cont {float: right; margin-right: 20%;}
 .fo-cont > a  {float: left; padding: 16px 24px; color: white; text-decoration: none;}
 .footer:hover {color: white;}
 .footer .fofo {text-decoration: none;}
 
 
+.bt-top	{float: right;}
 
 
 
@@ -121,12 +165,28 @@ margin: 0 12px; }
 	.header {color: white; font-size: 13px; line-height: 13px; padding: 6px 0;
 	background-color: #009fd0;}
 	.navi-wrap {padding: 8px;}
-	.navi-wrap > .login {float: right;}
+	.navi-wrap > .login {float: right; padding-right: 4rem;}
+	.navi-wrap  .login-2 {border-left: 1px solid #fff; padding: 0 4px;}
 	hr.border {border: none; border-bottom: 1px solid #eee; opacity: 0.5;}
-	.picture .call {padding-left: 45%;}
+	.picture .call {padding-left: 41%;}
+	.titles .fa {display: block;}
 	.titles {display: none;}
-	.title-wrap > .title {padding-left: 15%; letter-spacing: 2px; font-size: 32px;}
-	.title-wrap {background-color: #009fd0; padding: 24px;}
+	.title-wrap {max-width: 100%;} 
+	.title-wrap > .title {margin: auto;}
+	.title-wrap .imgh {width: 40%;}
+	.title-wrap {background-color: #009fd0;}
+	.box-cont {float: right; width: calc(100% - 10px);height: 120px;}
+	.cont-1 {padding-top: 20px; font-size: 1.2rem;}
+	.cont-2 {padding-top: 6px;}
+	.cont-2 > .br {display: none}
+	.mid-wrap {margin-top: 70px;}
+	.mid-3 {font-size: 100%; margin: 8px 5rem; vertical-align: baseline;}
+	.final-wrap {text-align: center; max-width:100%; padding: 6rem;}
+	.footer {width: 100%; padding: 2px 16px; }
+	.footer > .fo-tit {float: left; padding: 16px 8px; margin-left: 5%; font-size: 12px;}
+	.footer .fo-cont { margin-right: 5%; font-size: 11px;}
+	.bars {display: block; margin-right: 1rem;}
+
 
 }
 @media screen and (max-width: 767px) {
