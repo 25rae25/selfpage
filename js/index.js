@@ -47,4 +47,4 @@ function onBarClick() {
 
 
 /******************* pic ************************/  
-var slide = new Slide(".picture", ".pic", "scale", onComplete);
+var slide = new Slide(".picture", ".pic", "scale");
