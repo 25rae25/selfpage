@@ -68,11 +68,11 @@ top: 4rem; left: 7.5rem; display: none; cursor: pointer;}
 
 
 .picture {height:100vh; position: relative;}
-.picture .pic {background-repeat: no-repeat; background-position: center;background-size: cover; top: 0;} 
+.picture .pic {width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-repeat: no-repeat; background-position: center; background-size: cover;}
 
 .picture .pic1 {background-image: url(../img/travel-banner-cyan2.jpg);}
-.picture .pic2 {background-image: url(../img/travel-banner-3.jpg);}
-.picture .pic3 {background-image: url(../img/travel-banner-6.jpg);} 
+.picture .pic2 {background-image: url(../img/travel-banner-03.jpg);}
+.picture .pic3 {background-image: url(../img/travel-banner-6-2.jpg);}
 
 
 
