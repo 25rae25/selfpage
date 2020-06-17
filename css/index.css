@@ -67,25 +67,16 @@ top: 4rem; left: 7.5rem; display: none; cursor: pointer;}
 
 
 
-.picture {
-	height:100vh;
-	position: relative;
-}
-.picture .pic {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	top: 0;
-}
+.picture {height:100vh; position: relative;}
+.picture .pic {background-repeat: no-repeat; background-position: center;background-size: cover; top: 0;} 
+
 .picture .pic1 {background-image: url(../img/travel-banner-cyan2.jpg);}
 .picture .pic2 {background-image: url(../img/travel-banner-3.jpg);}
 .picture .pic3 {background-image: url(../img/travel-banner-6.jpg);} 
 
 
 
-.main-logo { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; 
-	top: 50%; transform: translateY(-50%); font-size: 70px; 
-font-family: 'Finger Paint', cursive;}	
+.main-logo { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; top: 50%; transform: translateY(-50%); font-size: 70px; font-family: 'Finger Paint', cursive;}	
 .main-cont { width: 100%; position: absolute; text-align: center; color: #fff; font-weight: normal; top: 50%; transform: translateY(-50%); font-size: 20px; margin-top: 4rem;}	
 .main-icon { width: 10%; position: absolute; text-align: center; color: #fff; font-weight: normal; top: 50%; transform: translateY(50%); font-size: 20px; padding-bottom: 50px;
 background-color: #009fd0;}	
